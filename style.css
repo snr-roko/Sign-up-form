@@ -1,0 +1,23 @@
+* {
+  margin: none;
+  padding: none;
+  border: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: visible;
+  background: url(res/cristiano-pinto-r6_FZ0iJAp8-unsplash.jpg); 
+  background-size: 100vb; 
+  display: flex;
+}
+
+body > header {
+  flex: 1;
+}
+
+body > main {
+  background-color: white;
+  flex: 2;
+}
