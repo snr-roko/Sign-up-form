@@ -13,42 +13,49 @@
     </div>
   </header>
   <main>
-    <main>
+    <div class="info">
       <p>This is not a real online service! You know you need something</p>
       <p>like this in your life to help you realize your deepest dreams.</p>
-      <p>Sign up now to get started</p>
-      <p>You know you want to.</p>
-      <form action="#">
-        <div>
-          <p>Let's do this!</p>
+      <p>Sign up <em>now</em> to get started</p>
+      <p>You <em>know</em> you want to.</p>
+    </div>
+    <form action="#">
+        <p>Let's do this!</p>
+        <div class="container">
           <div>
-            <label for="first-name">FIRST NAME <span aria-label="required">*</span></label>
+            <label for="first-name">FIRST NAME<span aria-label="required">*</span></label>
             <input type="text" id="first-name" name="first_name" required>
           </div>
           <div>
-            <label for="last-name">LAST NAME <span aria-label="required">*</span></label>
+            <label for="last-name">LAST NAME<span aria-label="required">*</span></label>
             <input type="text" id="last-name" name="last_name" required>
           </div>
+        </div>
+        <div class="container">
           <div>
-            <label for="email">EMAIL</label>
+            <label for="email">EMAIL<span aria-label="required">*</span></label>
             <input type="email" id="email" name="email" required>
           </div>
           <div>
-            <label for="password">PASSWORD</label>
+            <label for="phone">PHONE NUMBER<span aria-label="required">*</span></label>
+            <input type="tel" name="phone" id="phone" required>
+          </div>
+        </div>
+        <div class="container">
+          <div>
+            <label for="password">PASSWORD<span aria-label="required">*</span></label>
             <input type="password" id="password" name="password" required>
           </div>
           <div>
-            <label for="confirm-password">CONFIRM PASSWORD</label>
+            <label for="confirm-password">CONFIRM PASSWORD<span aria-label="required">*</span></label>
             <input type="password" name="confirm-password" id="confirm-password" required>
           </div>
         </div>
-        <div>
-          <button type="submit">Create Account</button>
-          <p>Already have an account? <span>Log in</span></p>
-        </div>
-      </form>
-    </main>
-    <footer></footer>
+      <div class="button-container">
+        <button type="submit">Create Account</button>
+        <p>Already have an account? <span class="login">Log in</span></p>
+      </div>
+    </form>
   </main> 
 </body>
 </html>
